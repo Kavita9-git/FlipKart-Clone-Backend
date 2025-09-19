@@ -192,7 +192,17 @@ export const categoriesData = [
       image_uri:
         "https://rukminim2.flixcart.com/image/416/416/xif0q/lipstick/y/3/s/-original-imahew9xad4n4fmp.jpeg?q=70&crop=false",
       ar_uri: null,
-      category: "beauty",
+      category: "Fashion",
+    },
+
+    {
+      name: "Eyeliner",
+      price: 500,
+      description:
+        "Black Eyeliner",
+      image_uri:"https://rukminim2.flixcart.com/image/416/416/xif0q/eyeliner/h/z/k/-original-imahe7yzzgzgfzzg.jpeg?q=70&crop=false",
+      ar_uri: null,
+      category: "Fashion",
     },
   ];
   
