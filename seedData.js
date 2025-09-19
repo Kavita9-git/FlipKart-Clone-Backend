@@ -63,8 +63,14 @@ export const categoriesData = [
       id: 11,
       name: "Jewellery",
       image_uri:
-        "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/4af1a2f1f0baf3a6.jpg?q=60",
+        "https://rukminim2.flixcart.com/image/832/832/xif0q/jewellery-set/z/d/s/na-na-1-temple-peacock-amulet-aura-original-imah8g3q6ummkgxt.jpeg?q=70&crop=false",
     },
+    {
+      id: 12,
+      name: "Toys",
+      image_uri:
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/stuffed-toy/k/4/p/teddy-bear-3-feet-stuffed-animals-plush-toy-doll-for-girlfriend-original-imahednawmszk74d.jpeg?q=70&crop=false",
+    }
   ];
   
   export const productData = [
