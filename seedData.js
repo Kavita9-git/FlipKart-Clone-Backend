@@ -59,6 +59,12 @@ export const categoriesData = [
       image_uri:
         "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/916c69ce7fae622b.jpg?q=60",
     },
+     {
+      id: 11,
+      name: "Jewellery",
+      image_uri:
+        "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/4af1a2f1f0baf3a6.jpg?q=60",
+    },
   ];
   
   export const productData = [
