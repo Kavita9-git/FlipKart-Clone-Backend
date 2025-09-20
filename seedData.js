@@ -194,26 +194,5 @@ export const categoriesData = [
       ar_uri: null,
       category: "beauty",
     },
-
-    {
-      name: "Eyeliner",
-      price: 500,
-      description:
-        "Black Eyeliner",
-      image_uri:"https://rukminim2.flixcart.com/image/416/416/xif0q/eyeliner/h/z/k/-original-imahe7yzzgzgfzzg.jpeg?q=70&crop=false",
-      ar_uri: null,
-      category: "beauty",
-    },
-
-    {
-      name: "red floral dress",
-      price: 550,
-      description:"A beautiful red floral dress ideal for spring and summer, featuring a flattering fit.",
-      image_uri:"https://rukminim2.flixcart.com/image/536/644/xif0q/dress/h/z/h/m-dd-075-red-drape-and-dazzle-original-imagt4szfzzhzyzg.jpeg?q=60&crop=false",
-      ar_uri: null,
-      color: ["Red", "White", "Pink"],
-      size: ["S", "M", "L", "XL"],
-      category: "Fashion",
-    },
   ];
   
