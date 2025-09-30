@@ -71,12 +71,6 @@ export const categoriesData = [
       image_uri:
         "https://rukminim2.flixcart.com/image/416/416/xif0q/stuffed-toy/k/4/p/teddy-bear-3-feet-stuffed-animals-plush-toy-doll-for-girlfriend-original-imahednawmszk74d.jpeg?q=70&crop=false",
     },
-     {
-      id: 13,
-      name: "Books",
-      image_uri:
-        "https://img.freepik.com/premium-photo/book-stack-png-education-sticker-transparent-background_53876-1039002.jpg?w=360",
-    },
   ];
   
   export const productData = [
