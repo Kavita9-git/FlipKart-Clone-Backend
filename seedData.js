@@ -223,7 +223,7 @@ export const categoriesData = [
     description:
       "Long-lasting matte lipstick with vibrant color for all-day wear.",
     image_uri:
-      "https://rukminim2.flixcart.com/image/416/416/kufuikw0/lipstick/r/5/y/4-5-royal-matte-lipstick-royal-glam-original-imag7frftdyuhw7e.jpeg?q=70&crop=false",
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2024/SEPTEMBER/16/iucWblHN_107226743b3b4d3ca6b09b71f8967b75.jpg",
     ar_uri: null,
     category: "Beauty",
   },
@@ -233,7 +233,7 @@ export const categoriesData = [
     description:
       "Hydrating face moisturizer suitable for all skin types, with SPF 15.",
     image_uri:
-      "https://rukminim2.flixcart.com/image/416/416/kyg5zm80/moisturizer-cream/o/c/v/100-face-moisturizer-lotion-simple-original-imagawztg6gzw8zs.jpeg?q=70&crop=false",
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/24822110/2024/3/7/3adcbe2f-6fec-4f94-b873-dd2c0b398da71709814972404-Lakme-9-to-5-Lumi-Lit-Highlighter-in-Moisturizer-Cream-60-g--1.jpg",
     ar_uri: null,
     category: "Beauty",
   },
@@ -243,7 +243,7 @@ export const categoriesData = [
     description:
       "Smudge-proof kajal eyeliner for bold and defined eyes.",
     image_uri:
-      "https://rukminim2.flixcart.com/image/416/416/kfzq8i80/kajal/3/a/y/0-3-eyeconic-kajal-lakme-original-imafwc39knseufkd.jpeg?q=70&crop=false",
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16525608/2024/2/29/fe11d905-2db3-4db6-b650-31592dce69961709207383584MATTLOOKBlack24HoursStayGelKajalCakeEyeliner1.jpg",
     ar_uri: null,
     category: "Beauty",
   },
@@ -253,7 +253,7 @@ export const categoriesData = [
     description:
       "Set of 6 vibrant nail polishes for every mood and occasion.",
     image_uri:
-      "https://rukminim2.flixcart.com/image/416/416/xif0q/nail-polish/d/r/x/5-color-fusion-long-lasting-nail-paint-set-of-5-color-fusion-original-imagqtczgr7zhcsd.jpeg?q=70&crop=false",
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/MARCH/12/9YNdNAyJ_00613a75f9f040a599e5f6fb65dc006c.jpg",
     ar_uri: null,
     category: "Beauty",
   },
@@ -263,10 +263,83 @@ export const categoriesData = [
     description:
       "Gentle gel-based face wash that removes dirt and excess oil.",
     image_uri:
-      "https://rukminim2.flixcart.com/image/416/416/kxp0mfk0/face-wash/j/a/v/100-morning-energy-facial-cleanser-neutrogena-original-imaga2f2mfrheggd.jpeg?q=70&crop=false",
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/AUGUST/29/iZsX1zoe_208f2d3d58884a43a890d47c9290df11.jpg",
     ar_uri: null,
     category: "Beauty",
   },
+
+  // ----- JEWELLERY PRODUCTS -----
+{
+  name: "Gold Plated Necklace",
+  price: 120,
+  description: "Elegant gold plated necklace with intricate designs, perfect for special occasions.",
+  image_uri: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/34923100/2025/6/16/aaaeaa9d-adcc-402e-8e4b-c3a20d92385a1750052871622-Panachee-Gold-plated-Lakshmi-Necklace-6901750052871517-2.jpg",
+  ar_uri: null,
+  category: "Jewellery",
+},
+{
+  name: "Silver Earrings Set",
+  price: 60,
+  description: "Beautiful silver earrings set, stylish and lightweight for daily wear.",
+  image_uri: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/JULY/11/LASNFDTM_5179bdf61c744d41b92a30a2b4d209cc.jpg",
+  ar_uri: null,
+  category: "Jewellery",
+},
+{
+  name: "Pearl Bracelet",
+  price: 80,
+  description: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/30480406/2024/10/21/977bb1ac-1eaa-4d94-87d8-7a47d7907c0b1729489891189-Bohey-by-KARATCART-Gold-Plated-Pearls-Multistrand-Bracelet-8-1.jpg",
+  ar_uri: null,
+  category: "Jewellery",
+},
+
+// ----- SPORTS PRODUCTS -----
+{
+  name: "Football",
+  price: 25,
+  description: "Standard size football with durable outer material for rough play.",
+  image_uri: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/JULY/16/ENkWWN3X_fdf64195c3494ae19af867e4c0753df5.jpg",
+  ar_uri: null,
+  category: "Sports",
+},
+{
+  name: "Tennis Racket",
+  price: 100,
+  description: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/FEBRUARY/3/evzVypXc_0bb4badb328d4642ac93026bdc4b3387.jpg",
+  ar_uri: null,
+  category: "Sports",
+},
+{
+  name: "Yoga Mat",
+  price: 30,
+  description: "Eco-friendly yoga mat with non-slip surface for better stability.",
+  image_uri: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/AUGUST/22/FbQWEsWT_659fb3184c0b414693ca09614f753283.jpg",
+  ar_uri: null,
+  category: "Sports",
+},
+
+// ----- MOBILE PRODUCTS -----
+{
+  name: "Smartphone XYZ Pro",
+  price: 700,
+  description: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/MARCH/28/sKPV1ngF_db0ec42fa24f42db802899f509be42cf.jpg",
+  ar_uri: null,
+  category: "Mobiles",
+},
+{
+  name: "Budget Phone ABC",
+  price: 150,
+  description: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/MARCH/21/B9i3RbFC_b883c9d69e194861862c1aaba3d2654f.jpg",
+  ar_uri: null,
+  category: "Mobiles",
+},
+{
+  name: "Wireless Earbuds",
+  price: 60,
+  description: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/SEPTEMBER/3/O7dqn4Qr_f705d458817b4f7692c9d344ef5b3253.jpg",
+  ar_uri: null,
+  category: "Mobiles",
+},
 
   ];
   
