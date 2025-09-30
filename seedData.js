@@ -74,6 +74,8 @@ export const categoriesData = [
   ];
   
   export const productData = [
+
+    // ----- FASHION PRODUCTS -----
     {
       name: "Slim Fit Jeans",
       price: 40,
@@ -212,7 +214,59 @@ export const categoriesData = [
       size: ["S", "M", "L", "XL" ],
     },
 
-   
+    // ----- BEAUTY PRODUCTS -----
+
+
+     {
+    name: "Matte Lipstick",
+    price: 15,
+    description:
+      "Long-lasting matte lipstick with vibrant color for all-day wear.",
+    image_uri:
+      "https://rukminim2.flixcart.com/image/416/416/kufuikw0/lipstick/r/5/y/4-5-royal-matte-lipstick-royal-glam-original-imag7frftdyuhw7e.jpeg?q=70&crop=false",
+    ar_uri: null,
+    category: "Beauty",
+  },
+  {
+    name: "Face Moisturizer",
+    price: 20,
+    description:
+      "Hydrating face moisturizer suitable for all skin types, with SPF 15.",
+    image_uri:
+      "https://rukminim2.flixcart.com/image/416/416/kyg5zm80/moisturizer-cream/o/c/v/100-face-moisturizer-lotion-simple-original-imagawztg6gzw8zs.jpeg?q=70&crop=false",
+    ar_uri: null,
+    category: "Beauty",
+  },
+  {
+    name: "Kajal Eyeliner",
+    price: 10,
+    description:
+      "Smudge-proof kajal eyeliner for bold and defined eyes.",
+    image_uri:
+      "https://rukminim2.flixcart.com/image/416/416/kfzq8i80/kajal/3/a/y/0-3-eyeconic-kajal-lakme-original-imafwc39knseufkd.jpeg?q=70&crop=false",
+    ar_uri: null,
+    category: "Beauty",
+  },
+  {
+    name: "Nail Polish Set",
+    price: 25,
+    description:
+      "Set of 6 vibrant nail polishes for every mood and occasion.",
+    image_uri:
+      "https://rukminim2.flixcart.com/image/416/416/xif0q/nail-polish/d/r/x/5-color-fusion-long-lasting-nail-paint-set-of-5-color-fusion-original-imagqtczgr7zhcsd.jpeg?q=70&crop=false",
+    ar_uri: null,
+    category: "Beauty",
+  },
+  {
+    name: "Face Wash Gel",
+    price: 12,
+    description:
+      "Gentle gel-based face wash that removes dirt and excess oil.",
+    image_uri:
+      "https://rukminim2.flixcart.com/image/416/416/kxp0mfk0/face-wash/j/a/v/100-morning-energy-facial-cleanser-neutrogena-original-imaga2f2mfrheggd.jpeg?q=70&crop=false",
+    ar_uri: null,
+    category: "Beauty",
+  },
 
   ];
   
