@@ -180,19 +180,6 @@ export const categoriesData = [
       category: "Fashion",
     },
 
-{
-      name: "Floral Dress",
-      price: 55,
-      description:
-        "A beautiful floral dress ideal for spring and summer, featuring a flattering fit.",
-      image_uri:
-        "https://rukminim2.flixcart.com/image/536/644/xif0q/dress/q/7/4/xxl-dd-076-bottle-green-drape-and-dazzle-original-imagt4szwnaxhf7s.jpeg?q=60&crop=false",
-      ar_uri: null,
-      category: "Fashion",
-      color: ["Green", "Black", "Blue" ],
-      size: ["S", "M", "L", "XL" ],
-    },
-
     {
       name: "Men's Sneakers",
       price: 75,
@@ -204,28 +191,34 @@ export const categoriesData = [
       category: "Fashion",
     },
 
-     {
-      name: "Mat Lipstick",
-      price: 750,
+    
+{
+      name: "Floral Dress",
+      price: 55,
       description:
-        "Red Mat Lipstick",
+        "A beautiful floral dress ideal for spring and summer, featuring a flattering fit.",
       image_uri:
-        "https://rukminim2.flixcart.com/image/416/416/xif0q/lipstick/y/3/s/-original-imahew9xad4n4fmp.jpeg?q=70&crop=false",
+        "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/30307652/2024/7/23/c7910fa4-6f18-4bd1-8af3-184ea4a9fdb01721677338817DAEVISHFloralPrintMaxiDress2.jpg",
       ar_uri: null,
-      category: "beauty",
+      category: "Fashion",
+      color: ["Green", "Black", "Blue" ],
+      size: ["S", "M", "L", "XL" ],
     },
 
     {
-      name: "Foundation",
-      price: 750,
+      name: "Printed Floral Dress",
+      price: 55,
       description:
-        "Liquid Foundation",
+        "A beautiful floral dress ideal for spring and summer, featuring a flattering fit.",
       image_uri:
-        "https://rukminim2.flixcart.com/image/416/416/xif0q/lipstick/y/3/s/-original-imahew9xad4n4fmp.jpeg?q=70&crop=false",
+        "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/MAY/20/QKAE9SUk_3c9f1f444beb48a1b264a61bc742835d.jpg",
       ar_uri: null,
-      category: "beauty",
+      category: "Fashion",
+      color: ["Green", "Black", "Blue", "Pink", "Red" ],
+      size: ["S", "M", "L", "XL" ],
     },
 
+   
 
   ];
   
