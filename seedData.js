@@ -179,6 +179,20 @@ export const categoriesData = [
       ar_uri: null,
       category: "Fashion",
     },
+
+{
+      name: "Floral Dress",
+      price: 55,
+      description:
+        "A beautiful floral dress ideal for spring and summer, featuring a flattering fit.",
+      image_uri:
+        "https://rukminim2.flixcart.com/image/536/644/xif0q/dress/q/7/4/xxl-dd-076-bottle-green-drape-and-dazzle-original-imagt4szwnaxhf7s.jpeg?q=60&crop=false",
+      ar_uri: null,
+      category: "Fashion",
+      color: ["Green", "Black", "Blue" ],
+      size: ["S", "M", "L", "XL" ],
+    },
+
     {
       name: "Men's Sneakers",
       price: 75,
@@ -189,6 +203,29 @@ export const categoriesData = [
       ar_uri: null,
       category: "Fashion",
     },
+
+     {
+      name: "Mat Lipstick",
+      price: 750,
+      description:
+        "Red Mat Lipstick",
+      image_uri:
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/lipstick/y/3/s/-original-imahew9xad4n4fmp.jpeg?q=70&crop=false",
+      ar_uri: null,
+      category: "beauty",
+    },
+
+    {
+      name: "Foundation",
+      price: 750,
+      description:
+        "Liquid Foundation",
+      image_uri:
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/lipstick/y/3/s/-original-imahew9xad4n4fmp.jpeg?q=70&crop=false",
+      ar_uri: null,
+      category: "beauty",
+    },
+
 
   ];
   
