@@ -76,7 +76,7 @@ export const categoriesData = [
       name: "Books",
       image_uri:
         "https://img.freepik.com/premium-photo/book-stack-png-education-sticker-transparent-background_53876-1039002.jpg?w=360",
-    }
+    },
   ];
   
   export const productData = [
