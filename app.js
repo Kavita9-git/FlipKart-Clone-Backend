@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(morgan("dev"));
 // Allow React Native device or browser to access backend
 app.use(cors({
-  origin: "http://localhost:3000", // Adjust if your frontend runs elsewhere
+  origin: "http://localhost:8081", // Adjust if your frontend runs elsewhere
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
