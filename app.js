@@ -25,15 +25,17 @@ const adminApp = express(); // Separate AdminJS server 👈 this was missing
 // ------------------------
 // Middleware
 // ------------------------
-app.use(express.json());
-app.use(morgan("dev"));
 app.use(
   cors({
-    origin: "http://localhost:8081", // Adjust to your frontend
+    origin: [
+      "http://localhost:8081", // for Expo local dev
+      "https://ekart-clone.netlify.app", // ✅ your Netlify domain
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
 );
+
 
 // ------------------------
 // Static Files
