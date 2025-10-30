@@ -28,8 +28,9 @@ const adminApp = express(); // Separate AdminJS server 👈 this was missing
 app.use(
   cors({
     origin: [
-      "http://localhost:8081", // for Expo local dev
-      "https://ekart-clone.netlify.app", // ✅ your Netlify domain
+      "http://localhost:8081",               // For Expo local dev
+      "https://ekart-clone.netlify.app",     // Your Netlify site
+      "https://flipkart-clone-backend-8b5e.onrender.com", // Optional (for testing API directly)
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
