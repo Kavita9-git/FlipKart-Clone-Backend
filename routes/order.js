@@ -8,11 +8,15 @@ import { createTransaction, createOrder, getOrdersByUserId, getOrderById,  saveO
 const router = express.Router();
 
 router.post("/transaction", createTransaction);
-router.post("/", createOrder);
-router.get("/user/:userId", getOrdersByUserId);
-router.get("/:orderId", getOrderById); 
 router.post("/verify", verifySignature);
 router.post("/save", saveOrder);
+router.post("/", createOrder);
+
+
+router.get("/user/:userId", getOrdersByUserId);
+
+// ❗ ALWAYS LAST → dynamic route
+router.get("/:orderId", getOrderById); 
 
 
          
