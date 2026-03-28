@@ -212,9 +212,18 @@ const saveOrder = async (req, res) => {
 const getOrderById = async (req, res) => {
   try {
     const { orderId } = req.params;
+
+    // ✅ CRITICAL FIX (THIS LINE SOLVES YOUR ERROR)
+    if (!mongoose.Types.ObjectId.isValid(orderId)) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid Order ID",
+      });
+    }
+
     const order = await Order.findById(orderId)
       .populate("user", "name email")
-      .populate("items.product", "name price image_uri")
+      .populate("items.product", "name price image_uri");
 
     if (!order) {
       return res.status(404).json({
@@ -228,6 +237,8 @@ const getOrderById = async (req, res) => {
       order,
     });
   } catch (error) {
+    console.error("❌ getOrderById error:", error);
+
     res.status(500).json({
       success: false,
       message: "Failed to fetch order",
@@ -235,7 +246,6 @@ const getOrderById = async (req, res) => {
     });
   }
 };
-
 // Add this to controllers/order.js
 
 const verifySignature = async (req, res) => {
